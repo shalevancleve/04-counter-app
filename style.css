@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Nunito', sans-serif;
+  background: #2B1D1B;
+  color: #F3F1ED;
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: #F3F1ED;
+  margin-bottom: 32px;
+  font-size: 52px;
+}
+
+h1 i {
+  margin-right: 16px;
+  font-size: 42px;
+}
+
+.count-display {
+  width: 95%;
+  max-width: 600px;
+  background-color: rgba(31, 27, 26, 0.95);
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+  margin: 0 auto;
+  border: 1px solid rgba(243, 241, 237, 0.1);
+}
+
+#count {
+  font-size: 96px;
+  font-weight: 600;
+  color: #F3F1ED;
+  display: block;
+  text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.2);
+  font-family: 'Poppins', sans-serif;
+}
+
+.label {
+  color: #F3F1ED;
+  font-size: 24px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  font-family: 'Nunito', sans-serif;
+}
+
+.buttons {
+  display: flex;
+  gap: 32px;
+  justify-content: center;
+  margin-top: 48px;
+}
+
+button {
+  font-family: 'Nunito', sans-serif;
+  font-size: 28px;
+  font-weight: 600;
+  padding: 24px 48px;
+  border: none;
+  border-radius: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+  min-width: 200px;
+}
+
+.capacity-warning {
+  margin-top: 32px;
+  font-size: 18px;
+  opacity: 0.7;
+  font-family: 'Nunito', sans-serif;
+}
+
+#decrease {
+  background: #EF8354;
+  color: #F3F1ED;
+}
+
+#increase {
+  background: #00BFA5;
+  color: #F3F1ED;
+}
+
+#decrease:hover {
+  background-color: #d96f3f;
+}
+
+#decrease:active {
+  transform: scale(0.95);
+}
+
+#increase:hover {
+  background-color: #009882;
+}
+
+#increase:active {
+  transform: scale(0.95);
+}
