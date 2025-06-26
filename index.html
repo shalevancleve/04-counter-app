@@ -20,8 +20,15 @@
   <div class="buttons">
     <button id="decrease">Exit (-1)</button>
     <button id="increase">Enter (+1)</button>
+    <button id="reset">Reset</button>
   </div>
   <div class="capacity-warning">Max capacity: 50</div>
+  <div id="max-capacity-notification" style="display: none; color: red; margin-top: 10px;">
+    Maximum capacity reached! You cannot add more people.
+  </div>
+  <div id="below-zero-notification" style="display: none; color: red; margin-top: 10px;">
+    There cannot be a negative number of people in the room.
+  </div>
   <script src="script.js"></script>
 </body>
 
